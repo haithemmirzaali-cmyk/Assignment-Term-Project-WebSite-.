@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>มหาวิทยาลัย - สมัครเรียนออนไลน์</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+       <div class="brand">
+            <img src="image/logo.png" alt="โลโก้" class="logo">
+            <h1 class="header-title">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h1>
+            <div style="margin-left: auto; text-align: right;">
+                <img src="image/user.jpg"">
+                <div style="color: white; font-size: 14px; margin-bottom: 2px;">ผู้ใช้งาน: Haithem Mirza</div>
+                <h4><a href="login.html" style="color: white;text-decoration: none;font-size: 15px;">ออกจากระบบ</a></h4>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menubar">
+        <a href="index_login.html">หน้าหลัก</a>
+        <a href="admission_login.html">กำหนดการรับสมัคร</a>
+        <a href="course_login.html">หลักสูตรการเรียน</a>
+        <a href="register.html" class="nav-apply">สมัครเรียน</a>
+    </nav>
+
+    <div class="container">
+        <h1>แบบฟอร์มสมัครเรียน</h1>
+        <form action="register2.html" method="get">
+            <div class="form-group">
+                <label>Code ID/Passport:</label>
+                <input type="number" name="code_id" pattern="[0-9]{13}" required><br>
+                <label>Password:</label>
+                <input type="password" name="password" required><br>
+                <label>First name:</label>
+                <input type="text" required><br>
+                <label>Last name:</label>
+                <input type="text" required><br>
+                <label>Email:</label>
+                <input type="email" name="email" required><br>
+            </div>
+                <button type="submit">ส่งใบสมัคร</button>
+        </form>
+    </div>
+
+    <footer>
+        <p> © 2027 King Mongkut's University of Technology</p>
+    </footer>
+
+</body>
+
+</html>
